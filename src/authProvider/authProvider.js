@@ -1,4 +1,4 @@
-import Auth from '@aws-amplify/auth'
+
 import { ERROR_TYPES } from '../util/CustomError'
 
 const login = ({ username, password }) => Auth.signIn(username, password)
